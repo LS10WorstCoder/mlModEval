@@ -1,0 +1,6 @@
+pyproject.toml
+src/evallib.egg-info/PKG-INFO
+src/evallib.egg-info/SOURCES.txt
+src/evallib.egg-info/dependency_links.txt
+src/evallib.egg-info/requires.txt
+src/evallib.egg-info/top_level.txt
