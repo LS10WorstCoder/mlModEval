@@ -18,9 +18,9 @@ terraform {
 
 provider "aws" {
 
-  default_tags{
+  default_tags {
     tags = {
-      Project = "mlModEval"
+      Project   = "mlModEval"
       ManagedBy = "terraform"
     }
   }
