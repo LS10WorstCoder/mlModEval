@@ -16,8 +16,12 @@ terraform {
   }
 }
 
-provider "aws" {}
+provider "aws" {
 
-resource "aws_s3_bucket" "artifacts" {
-  bucket_prefix = "mlmodeval-artifacts-"
+  default_tags{
+    tags = {
+      Project = "mlModEval"
+      ManagedBy = "terraform"
+    }
+  }
 }
