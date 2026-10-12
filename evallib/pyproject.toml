@@ -1,12 +1,12 @@
 [build-system]                          
 requires = ["setuptools>=68"]       #68 to keep the version requirement floor low
-build-backend = "setuptools.build_meta" 
+build-backend = "setuptools.build_meta"
 
-[project]                               
-name = "evallib"                        
+[project]
+name = "evallib"
 version = "0.1.0"
 requires-python = ">=3.11"          #also keeping the version requirement floor low
-dependencies = ["torch", "torchvision"] 
+dependencies = ["torch", "torchvision"]
 
-[tool.pytest.ini_options]               
-testpaths = ["tests"]                   
+[tool.pytest.ini_options]
+testpaths = ["tests"]
